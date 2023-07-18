@@ -14,11 +14,7 @@ public class Main {
                         p.getName(), p.getCompany(), p.getPrice()));
     }
 }
-class PhoneComparator implements Comparator<Phone> {
-    public int compare(Phone a, Phone b){
-        return a.getName().toUpperCase().compareTo(b.getName().toUpperCase());
-    }
-}
+
 // res:
 // Galaxy S9 (Samsung) - 300
 // iPhone 8 (Apple) - 450
